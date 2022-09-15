@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  min-height: 60px;
+  background-color: black;
+}
+
+.header_area {
+  max-width: 1366px;
+  min-height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 240px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #E31C25;
+}
+
+.search {
+  width: 250px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: inline;
+  justify-content: right;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.input_area {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: inline;
+  padding-right: 15px;
+  border-radius: 25px;
+  background-color: #454545;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  padding-left: 15px;
+  background-color: #454545;
+  color: white;
+  border: none;
+}
+
+.search_icon svg {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+.search_icon {
+  width: 28px;
+  height: 28px;
+}
+ 
+@media screen and (min-width: 600px) {
+  .search {
+    width: 450px;
+  }
+}
