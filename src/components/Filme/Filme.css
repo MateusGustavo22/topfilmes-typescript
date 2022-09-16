@@ -1,0 +1,55 @@
+.filme {
+  width: 150px;
+  min-height: 250px;
+  padding-bottom: 8px;
+  word-break: break-word;
+  margin: 15px;
+}
+
+.filme_banner {
+  width: 100%;
+  height: 220px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.filme_banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.filme_desc h2 {
+ font-family: inter;
+ font-weight: bold;
+ margin-bottom: 8px;
+ margin-top: 12px;
+}
+
+.filme_desc {
+  padding-left: 8px;
+}
+
+.nota {
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+}
+
+.nota {
+  font-family: inter;
+  font-weight: normal;
+  color: white;
+  font-size: 17px;
+}
+
+.nota_icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+.nota_icon svg {
+  width: 15px;
+  height: 15px;
+  color: #FFC107;
+}

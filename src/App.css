@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #111111;
+}
+.melhoresFilmes {
+  font-family: inter;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}

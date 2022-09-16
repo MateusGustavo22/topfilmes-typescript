@@ -1,0 +1,9 @@
+.filmes {
+  max-width: 1000px;
+  padding: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: inline;
+  flex-wrap: wrap;
+}
